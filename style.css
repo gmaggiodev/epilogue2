@@ -1,8 +1,16 @@
 
 @font-face{ 
-	font-family: 'epilogue2';
-	src: url('Epilogue-Regular3.ttf') format('truetype')
+  font-family: 'epilogue2';
+  font-weight: 100 900;
+	src: url('fonts/variable/Epilogue[wght].woff2') format('woff2-variations')
 }
+
+@font-face{ 
+  font-family: 'epilogue3';
+  font-weight: 100;
+	src: url('fonts/web/woff2/Epilogue-Thin.woff2') format('woff2')
+}
+
 .test-open-sans {
     font-family: 'Open Sans';
     font-size: 80px;
@@ -15,6 +23,13 @@
     font-size: 80px;
     border: 1px solid red;
     color: navy
+}
+
+.test-epilogue3 {
+  font-family: 'epilogue3';
+  font-size: 80px;
+  border: 1px solid red;
+  color: navy
 }
 
 .flex {
